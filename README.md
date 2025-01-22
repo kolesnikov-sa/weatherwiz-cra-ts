@@ -3,6 +3,7 @@
 ## Stack:
 - CRA
 - TS
+- Recharts
 
 ## Changelog
 
