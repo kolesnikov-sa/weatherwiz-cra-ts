@@ -193,7 +193,7 @@ const WeatherWiz: React.FC = () => {
 									type="monotone"
 									dataKey="temperature"
 									stroke="#8884d8"
-									activeDot={{ r: 8 }}
+									dot={false}
 									name="Temperature (°C)"
 								/>
 								{/* Feels Like Line */}
@@ -201,7 +201,7 @@ const WeatherWiz: React.FC = () => {
 									type="monotone"
 									dataKey="feelsLike"
 									stroke="#82ca9d"
-									activeDot={{ r: 8 }}
+									dot={false}
 									name="Feels Like (°C)"
 								/>
 								{/* Zero Line */}
